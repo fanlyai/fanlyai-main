@@ -32,6 +32,16 @@ export default function Navbar() {
             >
               <div className="items-center flex   justify-between md:flex space-x-6 md:space-y-0">
                 <div className="text-white text-base font-medium capitalize leading-relaxed">
+                <div
+                    className="cursor-pointer"
+                    
+                  >
+                    <Link href="https://whitepaper.fanlyai.com">Whitepaper</Link>
+                    
+
+                  </div>
+                  
+                  
                   <div
                     className="cursor-pointer"
                     

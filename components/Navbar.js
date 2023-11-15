@@ -41,9 +41,9 @@ export default function Navbar() {
 
                   </div>
                 </div>
-                <div className="text-white text-base">
+                <div className="text-white cursor-pointer text-base">
                  
-                    <Link href="https://fanlyai.com">Demo</Link>
+                    <Link href="https://chat.fanlyai.com">Demo</Link>
                  
                 </div> 
                

@@ -27,7 +27,7 @@ export default function Navbar() {
                     
 
                     <div className="cursor-pointer border-[#C80FB070] bg-transparent hover:bg-[#ffffff10] p-2 border rounded-xl text-xs md:text-base">
-                      <Link href="https://presale.fanlyai.com">Private Sale</Link>
+                      <Link href="https://presale.fanlyai.com">private sale</Link>
                     </div>
                   </div>
                   <div className="text-white cursor-pointer border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl  text-center text-xs md:text-base">
@@ -35,7 +35,7 @@ export default function Navbar() {
                   </div>
                   <div className="cursor-pointer text-white border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl text-center text-xs md:text-base ">
                       <Link href="https://whitepaper.fanlyai.com">
-                        Whitepaper
+                        whitepaper
                       </Link>
                     </div>
                 </div>

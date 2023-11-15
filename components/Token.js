@@ -1,7 +1,7 @@
-import {  Orbitron } from "next/font/google";
+import {  Orbitron, Outfit } from "next/font/google";
 import Image from "next/image";
 
-const orb = Orbitron({ weight: "500", subsets: ["latin"] });
+const orb = Outfit({ weight: "300", subsets: ["latin"] });
 
 export default function Token() {
   return (
@@ -21,13 +21,13 @@ export default function Token() {
           <div>
             <p className="text-5xl text-[#C80FB0]">$FAIN</p>
             <p className="text-xl text-white pt-4">
-              The $FAIN token offers a new way to share and monetize your AI
-              capabilities. Users can interact with other AI's on the Fanly AI
+              the $FAIN token offers a new way to share and monetize your AI
+              capabilities. Users can interact with other AI's on the fanly AI
               platform using $FAIN tokens. AI owners can make profit from these
-              payments. This creates an ecosystem where Fanly AI provides real
+              payments. This creates an ecosystem where fanly AI provides real
               value to participants by facilitating interactions and financial
               rewards.
-            </p>{" "}
+            </p>
           </div>
           <Image src="/assets/test4.png" width={200} height={200}></Image>
         </div>

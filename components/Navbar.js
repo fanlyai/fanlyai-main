@@ -23,17 +23,17 @@ export default function Navbar() {
             <div className={outfit.className}>
               <div>
                 <div className="items-center flex   justify-between  space-x-6 md:space-y-0">
-                  <div className="text-white text-base font-medium capitalize leading-relaxed">
+                  <div className="text-white cursor-pointer text-center text-xs md:text-base font-medium capitalize leading-relaxed">
                     
 
-                    <div className="cursor-pointer">
-                      <Link href="https://presale.fanlyai.com">Presale</Link>
+                    <div className="cursor-pointer border-[#C80FB070] bg-transparent hover:bg-[#ffffff10] p-2 border rounded-xl text-xs md:text-base">
+                      <Link href="https://presale.fanlyai.com">Private Sale</Link>
                     </div>
                   </div>
-                  <div className="text-white cursor-pointer text-base">
-                    <Link href="https://chat.fanlyai.com">Demo</Link>
+                  <div className="text-white cursor-pointer border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl  text-center text-xs md:text-base">
+                    <Link href="https://chat.fanlyai.com">FAIN Bot</Link>
                   </div>
-                  <div className="cursor-pointer text-white ">
+                  <div className="cursor-pointer text-white border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl text-center text-xs md:text-base ">
                       <Link href="https://whitepaper.fanlyai.com">
                         Whitepaper
                       </Link>

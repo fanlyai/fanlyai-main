@@ -1,7 +1,7 @@
-import { Inter, Orbitron } from "next/font/google";
+import { Inter, Orbitron, Outfit } from "next/font/google";
 import Image from "next/image";
 import { motion } from "framer-motion";
-const orb = Orbitron({ weight: "500", subsets: ["latin"] });
+const orb = Outfit({ weight: "300", subsets: ["latin"] });
 
 export default function About() {
   return (
@@ -19,13 +19,13 @@ export default function About() {
         <div
           className={`w-full h-full bg-[#C80FB020] md:mt-48  rounded-3xl p-12 flex-wrap justify-center flex flex-col ${orb.className}`}
         >
-          <p className="text-5xl text-[#C80FB0]">About</p>
-          <p className="text-xl text-white pt-4">
-            FanlyAI is a revolutionary platform that enables people to train and
+          <p className="text-5xl text-[#C80FB0]">about</p>
+          <p className="text-2xl text-white pt-4">
+            fanlyAI is a revolutionary platform that enables people to train and
             share their own artificial intelligences. With{" "}
             <span className="text-[#C80FB0]">$FAIN</span> tokens, users can
-            access other AI services. Additionally, AI trainers can make profit
-            from their own AI. FanlyAI connects the AI community by establishing
+            access other AI services. additionally, AI trainers can make profit
+            from their own AI. fanlyAI connects the AI community by establishing
             an open ecosystem that encourages communication and cooperation
             amongst users.
           </p>
@@ -37,9 +37,9 @@ export default function About() {
           whileInView={{ opacity: 1, scale: 1 }}
           className="bg-[#ffffff0c] filter border min-h-[270px] mt-4 border-[#ffffff10] rounded-xl p-8  text-center md:px-0  backdrop-blur-lg m-4 md:w-[220px] lg:w-[300px] "
         >
-          <p className="text-[#C80FB0] text-3xl  px-2">Create Your AI</p>
-          <p className="text-white pt-4 px-4">
-            FanlyAI gets to know users by asking them questions and creates a
+          <p className="text-[#C80FB0] text-4xl  px-2">create your AI</p>
+          <p className="text-white text-xl pt-4 px-4">
+            fanlyAI gets to know users by asking them questions and creates a
             special artificial intelligence conversation bot for them according
             to their characteristics.
           </p>
@@ -47,22 +47,22 @@ export default function About() {
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          className="bg-[#ffffff0c]  filter  border min-h-[270px] mt-4 border-[#ffffff10] rounded-xl p-8 text-center backdrop-blur-lg  m-4 md:w-[220px] lg:w-[300px] h-full"
+          className="bg-[#ffffff0c]  filter  border min-h-[300px] mt-4 border-[#ffffff10] rounded-xl p-8 text-center backdrop-blur-lg  m-4 md:w-[220px] lg:w-[300px] h-full"
         >
-          <p className="text-[#C80FB0] text-3xl px-2 ">Sell/Buy AI's</p>
-          <p className="text-white pt-4">
-            Users can sell their AI bots based on their own characteristics in
+          <p className="text-[#C80FB0] text-4xl px-2 ">sell/buy AI's</p>
+          <p className="text-white text-xl pt-4">
+            users can sell their AI bots based on their own characteristics in
             the marketplace or buy other user's AI's with $FAIN
           </p>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          className="bg-[#ffffff0c] border border-[#ffffff10] mt-4 filter min-h-[270px] rounded-xl p-8 text-center backdrop-blur-lg md:w-[220px]  m-4 lg:w-[300px] h-full"
+          className="bg-[#ffffff0c] border border-[#ffffff10] mt-4 filter min-h-[300px] rounded-xl p-8 text-center backdrop-blur-lg md:w-[220px]  m-4 lg:w-[300px] h-full"
         >
-          <p className="text-[#C80FB0] text-3xl ">Chat</p>
-          <p className="text-white pt-4">
-            Users who buys an artificial intelligence can talk to it as if
+          <p className="text-[#C80FB0] text-4xl ">chat</p>
+          <p className="text-white text-xl pt-4">
+            users who buys an artificial intelligence can talk to it as if
             it were the person they bought the artificial intelligence from.
           </p>
         </motion.div>

@@ -17,9 +17,9 @@ export default function Home() {
     >
       <Image
         src="/assets/back5.svg"
-        width={3000}
+        width={1000}
         height={600}
-        className=" md:w-[3000px] absolute lg:ml-[-200px] md:left-0 right-0  lg:mt-[-150px]  top-20 md:top-10  "
+        className=" md:w-[1200px] absolute z-0 md:left-0 right-0  top-[100px]  "
       ></Image>
 
       <div className="flex  flex-col pt-4">
@@ -41,19 +41,19 @@ export default function Home() {
               className="md:w-[200px] w-[80px] mt-[200px]  md:mt-[250px] md:ml-[100px] ml-[200px]  md:mr-[300px]   "
             ></Image>
           </div>
-          <div className="z-10   md:mt-[-120px] text-[50px] md:text-[80px]  text-white h-full  flex flex-col w-full md:justify-start md:items-start ">
+          <div className="z-10   text-[50px] md:text-[80px]  text-white h-full  flex flex-col w-full md:justify-start md:items-start ">
             <div className={orb.className}>
-              Be
+              be
               <span className="text-[#C80FB0]">
                 <Typewriter
                   options={{
-                    strings: ["Social", "Secure", "Fast", "Private"],
+                    strings: ["social", "secure", "fast", "private"],
                     autoStart: true,
                     loop: true,
                   }}
                 ></Typewriter>
               </span>
-              with Fanly<span className="text-[#C80FB0]">AI</span>
+              with fanly<span className="text-[#C80FB0]">AI</span>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ export default function Home() {
               src="/assets/abs.svg"
               width={200}
               height={200}
-              className="md:w-[200px] w-[100px] mt-[100px] ml-[100px]  "
+              className="md:w-[200px] w-[80px] mt-[100px] ml-[100px]  "
             ></Image>
           </div>
          {/*  <Image

@@ -22,7 +22,7 @@ export default function Navbar() {
           <div>
             <div className={outfit.className}>
               <div>
-                <div className="items-center flex   justify-between  space-x-6 md:space-y-0">
+                <div className="items-center flex   justify-between  space-x-2 md:space-y-0">
                   <div className="text-white cursor-pointer text-center text-xs md:text-base font-medium capitalize leading-relaxed">
                     
 

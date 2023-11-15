@@ -31,7 +31,7 @@ export default function Navbar() {
                     </div>
                   </div>
                   <div className="text-white cursor-pointer border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl  text-center text-xs md:text-base">
-                    <Link href="https://chat.fanlyai.com">FAIN Bot</Link>
+                    <Link href="https://chat.fanlyai.com">FAIN bot</Link>
                   </div>
                   <div className="cursor-pointer text-white border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl text-center text-xs md:text-base ">
                       <Link href="https://whitepaper.fanlyai.com">

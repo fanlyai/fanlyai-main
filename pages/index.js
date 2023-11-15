@@ -1,16 +1,13 @@
 import Image from "next/image";
-import {motion} from "framer-motion"
-import robot from "../public/assets/robott.png";
-import doodle from "../public/assets/doodle.png";
+
 
 import Typewriter from "typewriter-effect";
 
-import logo from "../public/assets/logo.svg";
+
 
 const orb = Outfit({ weight: "600", subsets: ["latin"] });
-const orb4 = Orbitron({ weight: "400", subsets: ["latin"] });
-const outfit = Outfit({ weight: "300", subsets: ["latin"] });
-import { Orbitron, Outfit , Jost , Quicksand ,Josefin_Sans} from "next/font/google";
+
+import { Outfit } from "next/font/google";
 import About from "@/components/About";
 import Token from "@/components/Token";
 export default function Home() {

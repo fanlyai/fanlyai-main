@@ -1,6 +1,6 @@
-import { Inter, Orbitron } from "next/font/google";
+import {  Orbitron } from "next/font/google";
 import Image from "next/image";
-import { motion } from "framer-motion";
+
 const orb = Orbitron({ weight: "500", subsets: ["latin"] });
 
 export default function Token() {

@@ -1,7 +1,7 @@
 
 import logo from "../public/assets/logo.svg";
 const outfit = Outfit({ weight: "300", subsets: ["latin"] });
-import { Orbitron, Outfit } from "next/font/google";
+import { Outfit } from "next/font/google";
 import { FaXTwitter } from "react-icons/fa6";
 import { BsTelegram } from "react-icons/bs";
 import Image from "next/image";

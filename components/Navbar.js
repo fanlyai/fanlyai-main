@@ -10,15 +10,8 @@ const outfit = Outfit({ weight: "400", subsets: ["latin"] });
 
 
 export default function Navbar() {
-  const [navbar, setNavbar] = useState(false);
 
-  const goToSection = (id) => {
-    document.getElementById(id).scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-      inline: "center",
-    });
-  };
+
   return (
     <div className="z-10">
       <nav className="w-screen bg-[#0F0F0F] z-10  ">

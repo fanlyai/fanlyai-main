@@ -26,14 +26,14 @@ export default function Navbar() {
                   <div className="text-white cursor-pointer text-center text-xs md:text-base font-medium  leading-relaxed">
                     
 
-                    <div className="cursor-pointer border-[#C80FB070] bg-transparent hover:bg-[#ffffff10] p-2 border rounded-xl text-xs md:text-base">
+                    <div className="cursor-pointer border-[#C80FB070] bg-transparent md:px-6 hover:bg-[#ffffff10] p-2 border rounded-xl text-xs md:text-base">
                       <Link href="https://presale.fanlyai.com">private sale</Link>
                     </div>
                   </div>
-                  <div className="text-white cursor-pointer border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl  text-center text-xs md:text-base">
+                  <div className="text-white cursor-pointer border-[#C80FB070] md:px-6 p-2 border hover:bg-[#ffffff10] rounded-xl  text-center text-xs md:text-base">
                     <Link href="https://chat.fanlyai.com">FAIN bot</Link>
                   </div>
-                  <div className="cursor-pointer text-white border-[#C80FB070] p-2 border hover:bg-[#ffffff10] rounded-xl text-center text-xs md:text-base ">
+                  <div className="cursor-pointer text-white border-[#C80FB070] md:px-6 p-2 border hover:bg-[#ffffff10] rounded-xl text-center text-xs md:text-base ">
                       <Link href="https://whitepaper.fanlyai.com">
                         whitepaper
                       </Link>

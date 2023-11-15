@@ -29,7 +29,7 @@ export default function Token() {
               rewards.
             </p>
           </div>
-          <Image src="/assets/test4.png" width={200} height={200}></Image>
+          <Image src="/assets/test4.png" width={200} height={200} className="md:py-0 py-12"></Image>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Train() {
   return (
     <div
-      className={`bg-white flex text-black flex-col ${out.className}  h-full md:h-screen justify-center items-center`}
+      className={`bg-black flex text-white flex-col ${out.className}  h-full md:h-screen justify-center items-center`}
     >
       <div className="flex flex-col md:flex-row px-8 justify-center items-center md:px-12 md:space-x-4 my-16">
         <p className={`w-full text-3xl md:text-5xl  ${out6.className}`}>
@@ -23,11 +23,11 @@ export default function Train() {
           </p>
           <div className="flex space-x-4 mt-2">
             <Link href="/comingsoon">
-            <button  className="border border-black flex text-white bg-black justify-center items-center p-2 w-32">
+            <button  className="border border-white flex text-white bg-black justify-center items-center p-2 w-32">
               get started
             </button></Link>
             <Link href="https://whitepaper.fanlyai.com" target="_blank">
-            <button className="border border-black flex justify-center items-center p-2 w-32">
+            <button className="border border-white bg-white text-black flex justify-center items-center p-2 w-32">
               learn more
             </button></Link>
           </div>

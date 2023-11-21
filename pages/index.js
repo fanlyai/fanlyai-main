@@ -13,7 +13,7 @@ import Unleash from "@/containers/Unleash";
 export default function Home() {
   return (
     <main
-      className={`flex min-h-full flex-col bg-white text-black items-center justify-center px-4 md:px-24 lg:px-48 `}
+      className={`flex min-h-full flex-col bg-black text-white items-center justify-center px-4 md:px-24 lg:px-48 `}
     >
   <Train></Train>
   <Fain></Fain>

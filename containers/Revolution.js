@@ -11,7 +11,7 @@ export default function Revolution() {
     initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ ease: "easeOut", duration:0.3 }}
-      className={`bg-white text-center flex  flex-col ${out.className} md:space-x-10 w-full  min-h-[600px] py-12 justify-center items-center`}
+      className={`bg-black text-white text-center flex  flex-col ${out.className} md:space-x-10 w-full  min-h-[600px] py-12 justify-center items-center`}
     >
       <div className="text-center flex flex-col ">
         <p>Revolutionize</p>
@@ -27,7 +27,7 @@ export default function Revolution() {
       </div>
       <div
         
-        className="flex md:flex-row flex-col pt-24 md:px-12 items-center md:items-start md:space-y-0 space-y-10 justify-center  md:space-x-10"
+        className="flex md:flex-row text-black flex-col pt-24 md:px-12 items-center md:items-start md:space-y-0 space-y-10 justify-center  md:space-x-10"
       >
         <div className="text-center bg-[#EFDFEF] md:h-[300px] lg:h-[400px] xl:h-[250px] p-4 lg:p-4  xl:p-6 rounded-3xl   flex flex-col w-full justify-center items-center">
           <FaCube size={36}></FaCube>

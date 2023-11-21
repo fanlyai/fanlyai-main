@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Fain() {
   return (
     <div
-      className={`bg-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
+      className={`bg-black text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
     >
       <div className="flex flex-col">
         <p className={`w-full text-3xl  ${out6.className}`}>

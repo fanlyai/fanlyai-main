@@ -17,7 +17,7 @@ export default function Navbar() {
               <div className="flex items-center">
                 <div className={outfit.className}>
                 
-                <div  className=" text-2xl text-white" >fanly<span className="text-[#C80FB0]">AI</span></div></div>
+                <div  className=" bg-white text-2xl text-black px-2 py-1 rounded-lg" >fanly<span className="text-[#C80FB0]">AI</span></div></div>
               </div>
             </div> </Link>
           </div>
@@ -29,7 +29,7 @@ export default function Navbar() {
                     
 
                     <div className="cursor-pointer text-white  bg-transparent md:px-6 hover:bg-[#ffffff10] p-2  text-xs md:text-base">
-                      <Link href="https://presale.fanlyai.com">private sale</Link>
+                      <Link href="https://demo.fanly3.app" target="_blank">fanly social</Link>
                     </div>
                   </div>
                   <div className="text-white cursor-pointer  md:px-6 p-2  text-center text-xs md:text-base">

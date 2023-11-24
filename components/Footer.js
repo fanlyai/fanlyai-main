@@ -17,7 +17,7 @@ export default function Footer(){
      <p >© 2023 VuzzAI. All rights reserved. All website design generated with AI</p>
     </div>
     <div className="text-white flex gap-4 md:py-0 py-8">
-    <Link href="https://twitter.com/VuzzAI" target="_blank"> <FaXTwitter size={28}></FaXTwitter></Link>
+    <Link href="https://twitter.com/fanlyAI" target="_blank"> <FaXTwitter size={28}></FaXTwitter></Link>
       <BsTelegram className="cursor-pointer" size={28}></BsTelegram>
     </div>
   </div>)

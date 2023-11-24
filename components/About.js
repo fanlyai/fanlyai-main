@@ -23,7 +23,7 @@ export default function About() {
           <p className="text-2xl text-white pt-4">
             VuzzAI is a revolutionary platform that enables people to train and
             share their own artificial intelligences. With{" "}
-            <span className="text-[#C80FB0]">$FAIN</span> tokens, users can
+            <span className="text-[#C80FB0]">$VUZZ</span> tokens, users can
             access other AI services. additionally, AI trainers can make profit
             from their own AI. VuzzAI connects the AI community by establishing
             an open ecosystem that encourages communication and cooperation
@@ -52,7 +52,7 @@ export default function About() {
           <p className="text-[#C80FB0] text-4xl px-2 ">sell/buy AI's</p>
           <p className="text-white text-xl pt-4">
             users can sell their AI bots based on their own characteristics in
-            the marketplace or buy other user's AI's with $FAIN
+            the marketplace or buy other user's AI's with $VUZZ
           </p>
         </motion.div>
         <motion.div

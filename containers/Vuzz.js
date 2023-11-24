@@ -6,18 +6,18 @@ import { motion } from "framer-motion";
 import { Outfit } from "next/font/google";
 import Image from "next/image";
 
-export default function Fain() {
+export default function Vuzz() {
   return (
     <div
       className={`bg-black text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
     >
       <div className="flex flex-col">
         <p className={`w-full text-3xl  ${out6.className}`}>
-          Unlock the Power of AI Services with $FAIN Tokens
+          Unlock the Power of AI Services with $VUZZ Tokens
         </p>
         <p className="pt-6">
           Experience the future of artificial intelligence with VuzzAI. With
-          $FAIN tokens, you can access a wide range of AI services and unleash
+          $VUZZ tokens, you can access a wide range of AI services and unleash
           the potential of your own AI creations.
         </p>
         <div className="flex items-center space-x-2 pt-4">

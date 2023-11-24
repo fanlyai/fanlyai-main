@@ -15,7 +15,7 @@ export default function Services() {
       
         whileInView={{ opacity: 1, scale: 1, x:0 }} className="w-full flex justify-center">
         <Image
-          src="/aiVuzz.png"
+          src="/aifanly.png"
           width={600}
           height={600}
           className="rounded-3xl"
@@ -39,7 +39,7 @@ export default function Services() {
             Access to AI services
           </p>
           <p className="pt-2">
-            By using $FAIN tokens, AI trainers gain access to a wide range of AI
+            By using $VUZZ tokens, AI trainers gain access to a wide range of AI
             services offered by other users on the VuzzAI platform. This allows
             trainers to leverage the expertise of others and enhance their own
             AI creations.

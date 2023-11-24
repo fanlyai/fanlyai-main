@@ -46,9 +46,9 @@ export default function Revolution() {
         <div className="text-center  bg-[#EFDFEF] md:h-[300px] lg:h-[400px] p-2  xl:h-[250px] lg:p-4  xl:p-6 rounded-3xl  flex flex-col w-full justify-center items-center">
           <FaCube size={36}></FaCube>
           <p className={`w-full text-lg md:text-2xl pt-4 ${out6.className}`}>
-            Access AI Services with $FAIN Tokens
+            Access AI Services with $VUZZ Tokens
           </p>
-          <p>Use $FAIN tokens to unlock a range of AI services.</p>
+          <p>Use $VUZZ tokens to unlock a range of AI services.</p>
         </div>
       </div>
     </motion.div>

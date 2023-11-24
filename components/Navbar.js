@@ -15,9 +15,7 @@ export default function Navbar() {
           <div> <Link href="/">
             <div className="flex w-full items-center justify-between py-3 md:py-2 ">
               <div className="flex items-center">
-                <div className={outfit.className}>
-                
-                <div  className=" bg-white text-2xl text-black px-2 py-1 rounded-lg" >Vuzz<span className="text-[#C80FB0]">AI</span></div></div>
+              <Image src="/vuzzAIlogo.png" width={60} height={60}></Image>
               </div>
             </div> </Link>
           </div>

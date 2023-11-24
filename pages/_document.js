@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <title>Fanly AI</title>
+      <title>Vuzz AI</title>
       <body>
         <Main />
         <NextScript />

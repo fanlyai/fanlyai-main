@@ -15,7 +15,7 @@ export default function comingsoon() {
         </p>
         <p className="pt-6 md:px-12 lg:px-48">
           Discover the power of training, sharing, and utilizing artificial
-          intelligence on the fanlyAI platform. With fanlyAI, you can unleash
+          intelligence on the VuzzAI platform. With VuzzAI, you can unleash
           the potential of AI and connect with a vibrant community of AI
           enthusiasts.
         </p>

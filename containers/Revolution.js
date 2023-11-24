@@ -16,11 +16,11 @@ export default function Revolution() {
       <div className="text-center flex flex-col ">
         <p>Revolutionize</p>
         <p className={`w-full text-3xl md:text-4xl pt-2 ${out6.className}`}>
-          Train, Share, and Use AI on fanlyAI
+          Train, Share, and Use AI on VuzzAI
         </p>
         <p className="pt-6 md:px-12 lg:px-48">
           Discover the power of training, sharing, and utilizing artificial
-          intelligence on the fanlyAI platform. With fanlyAI, you can unleash
+          intelligence on the VuzzAI platform. With VuzzAI, you can unleash
           the potential of AI and connect with a vibrant community of AI
           enthusiasts.
         </p>

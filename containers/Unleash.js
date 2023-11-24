@@ -15,13 +15,13 @@ export default function Unleash(){
              <div className="text-center flex flex-col justify-center items-center ">
         
         <p className={`w-full text-3xl md:text-4xl pt-2 lg:px-24 ${out6.className}`}>
-        Join fanlyAI and unleash your potential
+        Join VuzzAI and unleash your potential
         </p>
         <p className="pt-2 md:px-12 lg:px-48">
-        Train your own AI or access a wide range of AI services on fanlyAI
+        Train your own AI or access a wide range of AI services on VuzzAI
         </p>
         <div className="my-4 flex space-x-4">
-          <Link href="https://twitter.com/FanlyAI" target="_blank"> <FaXTwitter size={36}></FaXTwitter></Link>
+          <Link href="https://twitter.com/VuzzAI" target="_blank"> <FaXTwitter size={36}></FaXTwitter></Link>
        
         <FaTelegram size={36}></FaTelegram>
 
@@ -32,7 +32,7 @@ export default function Unleash(){
             <button  className="border border-white flex text-white bg-black justify-center items-center p-2 w-32">
               get started
             </button></Link>
-            <Link href="https://whitepaper.fanlyai.com" target="_blank">
+            <Link href="https://whitepaper.VuzzAI.com" target="_blank">
             <button className="border border-white bg-white text-black flex justify-center items-center p-2 w-32">
               learn more
             </button></Link>

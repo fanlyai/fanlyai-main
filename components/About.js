@@ -21,11 +21,11 @@ export default function About() {
         >
           <p className="text-5xl text-[#C80FB0]">about</p>
           <p className="text-2xl text-white pt-4">
-            fanlyAI is a revolutionary platform that enables people to train and
+            VuzzAI is a revolutionary platform that enables people to train and
             share their own artificial intelligences. With{" "}
             <span className="text-[#C80FB0]">$FAIN</span> tokens, users can
             access other AI services. additionally, AI trainers can make profit
-            from their own AI. fanlyAI connects the AI community by establishing
+            from their own AI. VuzzAI connects the AI community by establishing
             an open ecosystem that encourages communication and cooperation
             amongst users.
           </p>
@@ -39,7 +39,7 @@ export default function About() {
         >
           <p className="text-[#C80FB0] text-4xl  px-2">create your AI</p>
           <p className="text-white text-xl pt-4 px-4">
-            fanlyAI gets to know users by asking them questions and creates a
+            VuzzAI gets to know users by asking them questions and creates a
             special artificial intelligence conversation bot for them according
             to their characteristics.
           </p>

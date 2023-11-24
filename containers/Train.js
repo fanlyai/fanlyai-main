@@ -13,11 +13,11 @@ export default function Train() {
     >
       <div className="flex flex-col md:flex-row px-8 justify-center items-center md:px-12 md:space-x-4 my-16">
         <p className={`w-full text-3xl md:text-5xl  ${out6.className}`}>
-          train and share your own AI with fanlyAI
+          train and share your own AI with VuzzAI
         </p>
         <div className="w-full flex flex-col pt-4 md:pt-0">
           <p>
-            Unlock the power of artificial intelligence with fanlyAI. Train your
+            Unlock the power of artificial intelligence with VuzzAI. Train your
             own AI models and share them with the community to make a
             difference.
           </p>
@@ -26,7 +26,7 @@ export default function Train() {
             <button  className="border border-white flex text-white bg-black justify-center items-center p-2 w-32">
               get started
             </button></Link>
-            <Link href="https://whitepaper.fanlyai.com" target="_blank">
+            <Link href="https://whitepaper.VuzzAI.com" target="_blank">
             <button className="border border-white bg-white text-black flex justify-center items-center p-2 w-32">
               learn more
             </button></Link>

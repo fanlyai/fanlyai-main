@@ -15,7 +15,7 @@ export default function Services() {
       
         whileInView={{ opacity: 1, scale: 1, x:0 }} className="w-full flex justify-center">
         <Image
-          src="/aifanly.png"
+          src="/aiVuzz.png"
           width={600}
           height={600}
           className="rounded-3xl"
@@ -28,7 +28,7 @@ export default function Services() {
             Profit from AI creations
           </p>
           <p className="pt-2">
-            With fanlyAI, AI trainers can monetize their creations and earn
+            With VuzzAI, AI trainers can monetize their creations and earn
             profits by sharing their artificial intelligences with others. This
             provides a unique opportunity for trainers to turn their expertise
             into a sustainable source of income.
@@ -40,7 +40,7 @@ export default function Services() {
           </p>
           <p className="pt-2">
             By using $FAIN tokens, AI trainers gain access to a wide range of AI
-            services offered by other users on the fanlyAI platform. This allows
+            services offered by other users on the VuzzAI platform. This allows
             trainers to leverage the expertise of others and enhance their own
             AI creations.
           </p>
@@ -50,9 +50,9 @@ export default function Services() {
             Connect with AI community
           </p>
           <p className="pt-2">
-            fanlyAI provides a vibrant community of AI trainers, offering
+            VuzzAI provides a vibrant community of AI trainers, offering
             opportunities to connect, collaborate, and learn from like-minded
-            individuals. By joining the fanlyAI community, trainers can expand
+            individuals. By joining the VuzzAI community, trainers can expand
             their network and stay updated with the latest advancements in AI.
           </p>
         </div>

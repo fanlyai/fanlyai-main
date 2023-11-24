@@ -16,7 +16,7 @@ export default function Fain() {
           Unlock the Power of AI Services with $FAIN Tokens
         </p>
         <p className="pt-6">
-          Experience the future of artificial intelligence with fanlyAI. With
+          Experience the future of artificial intelligence with VuzzAI. With
           $FAIN tokens, you can access a wide range of AI services and unleash
           the potential of your own AI creations.
         </p>

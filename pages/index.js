@@ -10,6 +10,7 @@ import Vuzz from "../containers/Vuzz";
 import Services from "@/containers/Services";
 import Revolution from "@/containers/Revolution";
 import Unleash from "@/containers/Unleash";
+import Social from "@/containers/Social";
 export default function Home() {
   return (
     <main
@@ -17,7 +18,8 @@ export default function Home() {
     >
   <Train></Train>
   <Vuzz></Vuzz>
-  <Services></Services>
+ 
+  <Services></Services> <Social></Social>
   <Revolution></Revolution>
   <Unleash></Unleash>
     </main>

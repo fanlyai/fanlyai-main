@@ -1,5 +1,6 @@
 const out = Outfit({ weight: "300", subsets: ["latin"] });
 const out6 = Outfit({ weight: "600", subsets: ["latin"] });
+import Lines from "@/components/Lines";
 import { motion } from "framer-motion";
 
 import { Outfit } from "next/font/google";
@@ -33,18 +34,7 @@ export default function Train() {
           </div>
         </div>
       </div>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ ease: "easeOut", duration: 0.3 }}
-      >
-        <Image
-          src="/hero.png"
-          width={1000}
-          className="rounded-3xl mb-12"
-          height={500}
-        ></Image>
-      </motion.div>
+      <Lines></Lines>
     </div>
   );
 }

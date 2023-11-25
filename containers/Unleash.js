@@ -21,7 +21,7 @@ export default function Unleash(){
         Train your own AI or access a wide range of AI services on VuzzAI
         </p>
         <div className="my-4 flex space-x-4">
-          <Link href="https://twitter.com/FanlyAI" target="_blank"> <FaXTwitter size={36}></FaXTwitter></Link>
+          <Link href="https://twitter.com/VuzzPlatformAI" target="_blank"> <FaXTwitter size={36}></FaXTwitter></Link>
        
         <FaTelegram size={36}></FaTelegram>
 

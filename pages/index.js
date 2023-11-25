@@ -19,7 +19,11 @@ export default function Home() {
   <Train></Train>
   <Vuzz></Vuzz>
  
-  <Services></Services> <Social></Social>
+  <Services></Services> 
+  <div className="absolute left-0 top-0 h-full w-full overflow-hidden ">
+        <div className="absolute left-1/2 top-16 ml-[-2000px] h-[4000px] w-[4000px] rounded-full bg-transparent shadow-[0px_10px_100px_0px_rgba(255,255,255)] "></div>
+</div>
+  <Social></Social>
   <Revolution></Revolution>
   <Unleash></Unleash>
     </main>

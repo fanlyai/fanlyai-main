@@ -9,9 +9,13 @@ import Image from "next/image";
 export default function Social() {
   return (
     <div
-      className={`bg-black text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
+      className={`bg-black  text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
     >
+      
       <div className="flex flex-col ">
+      <div className="absolute left-0 h-full w-full overflow-hidden ">
+        <div className="absolute left-1/2 top-[620px] md:top-[300px] ml-[-2000px] h-[4000px] w-[4000px] rounded-full bg-transparent shadow-[0px_10px_100px_0px_rgba(255,255,255)_inset] "></div>
+</div>
         <p className={`w-full text-3xl  ${out6.className}`}>
           Integration of Personal Chatbots in Social Media Interaction
         </p>
@@ -33,10 +37,10 @@ export default function Social() {
         transition={{ ease: "easeOut", duration: 0.3 }}
       >
         <Image
-          src="/vuzzlogo.png"
-          width={500}
+          src="/vuzzV.png"
+          width={300}
           height={600}
-          className="rounded-3xl min-w-[400px] transform transition duration-200 hover:scale-110"
+          className="rounded-3xl min-w-[300px] transform transition duration-200 hover:scale-110"
         ></Image>
       </motion.div>
     </div>

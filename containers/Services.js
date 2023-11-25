@@ -23,7 +23,7 @@ export default function Services() {
       </motion.div>
 
       <div className="flex flex-col space-y-8">
-        <div className="border-l-2 hover:bg-[#EFDFEF] hover:text-black rounded-r-lg border-white px-6">
+        <div className="border-l-2 hover:bg-white hover:text-black rounded-r-lg border-white px-6">
           <p className={`w-full text-2xl  ${out6.className}`}>
             Profit from AI creations
           </p>
@@ -34,7 +34,7 @@ export default function Services() {
             into a sustainable source of income.
           </p>
         </div>
-        <div className="border-l-2 hover:bg-[#EFDFEF] hover:text-black rounded-r-lg border-white px-6">
+        <div className="border-l-2 hover:bg-white hover:text-black rounded-r-lg border-white px-6">
           <p className={`w-full text-2xl  ${out6.className}`}>
             Access to AI services
           </p>
@@ -45,7 +45,7 @@ export default function Services() {
             AI creations.
           </p>
         </div>
-        <div className="border-l-2 hover:bg-[#EFDFEF] hover:text-black rounded-r-lg border-white px-6">
+        <div className="border-l-2 hover:bg-white hover:text-black rounded-r-lg border-white px-6">
           <p className={`w-full text-2xl  ${out6.className}`}>
             Connect with AI community
           </p>

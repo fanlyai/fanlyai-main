@@ -20,7 +20,8 @@ export default function Footer(){
     </div>
     <div className="text-white items-center flex gap-4 md:py-0 py-8">
     <Link href="https://twitter.com/VuzzPlatformAI" target="_blank"> <FaXTwitter size={28}></FaXTwitter></Link>
-      <BsTelegram className="cursor-pointer" size={28}></BsTelegram>
+     <Link href="https://t.me/vuzzaiannouncement">
+     <BsTelegram className="cursor-pointer" size={28}></BsTelegram></Link>
       <FaMedium size={36}/>
     </div>
   </div>)

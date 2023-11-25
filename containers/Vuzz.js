@@ -40,10 +40,10 @@ export default function Vuzz() {
         transition={{ ease: "easeOut", duration:0.3 }}
       >
         <Image
-          src="/fain.png"
+          src="/Brain22.png"
           width={500}
           height={600}
-          className="rounded-3xl"
+          
         ></Image>
       </motion.div>
     </div>

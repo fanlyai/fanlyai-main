@@ -43,7 +43,7 @@ export default function Navbar() {
                       whitepaper
                     </div>
                   </Link>
-                  <Link href="https://whitepaper.vuzz.app">
+                  <Link href="/">
                     <div className="cursor-pointer text-white md:px-6 p-2 hover:bg-[#ffffff10]  rounded-xl text-center text-xs md:text-base ">
                       career
                     </div>

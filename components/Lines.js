@@ -22,6 +22,8 @@ export default function Lines(){
             <div className="w-screen h-[48px] bg-white"></div>
             <div className="w-screen h-[60px] bg-white"></div>
             <div className="w-screen h-[80px] bg-white"></div>
+            
+            <div className="w-screen h-[100px] bg-white"></div>
         </div>
     )
 }

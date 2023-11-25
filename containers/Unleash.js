@@ -4,14 +4,16 @@ const out = Outfit({ weight: "300", subsets: ["latin"] });
 const out6 = Outfit({ weight: "600", subsets: ["latin"] });
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa6";
+
 
 import { Outfit } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Unleash(){
+export default function Unleash({id}){
     return(
-        <div className={`bg-black flex md:flex-row flex-col ${out.className} space-x-10 w-full  min-h-[500px] py-12 justify-center items-center`}>
+        <div id={id} className={`bg-black flex md:flex-row flex-col ${out.className} space-x-10 w-full  min-h-[500px] py-12 justify-center items-center`}>
              
              <div className="text-center flex flex-col justify-center items-center ">
         
@@ -25,6 +27,8 @@ export default function Unleash(){
           <Link href="https://twitter.com/VuzzPlatformAI" target="_blank"> <FaXTwitter size={36}></FaXTwitter></Link>
        
         <FaTelegram size={36}></FaTelegram>
+        <FaMedium size={36}/>
+
 
         </div>
         

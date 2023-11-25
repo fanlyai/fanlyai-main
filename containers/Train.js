@@ -8,6 +8,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Train() {
+  const goToSection = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+      inline: "center",
+    });
+  };
   return (
     <div
       className={`bg-black flex text-white flex-col ${out.className}  h-full md:h-screen justify-center items-center`}
@@ -23,10 +30,10 @@ export default function Train() {
             difference.
           </p>
           <div className="flex space-x-4 mt-2">
-            <Link href="/comingsoon">
-            <button  className="border border-white flex text-white bg-black justify-center items-center p-2 w-32">
+           
+            <button  onClick={() => goToSection("unleash")} className="border border-white flex text-white bg-black justify-center items-center p-2 w-32">
               get started
-            </button></Link>
+            </button>
             <Link href="https://whitepaper.vuzz.app" target="_blank">
             <button className="border border-white bg-white text-black flex justify-center items-center p-2 w-32">
               learn more

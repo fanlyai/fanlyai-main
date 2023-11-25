@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 import { Outfit } from "next/font/google";
 import Image from "next/image";
 
-export default function Vuzz() {
+export default function Vuzz({id}) {
   return (
-    <div
-      className={`bg-black text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
+    <div 
+      className={`bg-transparent text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
     >
-      <div className="flex flex-col">
+      <div  className="flex flex-col">
         <p className={`w-full text-3xl  ${out6.className}`}>
           Unlock the Power of AI Services with $VUZZ Tokens
         </p>
@@ -20,7 +20,7 @@ export default function Vuzz() {
           $VUZZ tokens, you can access a wide range of AI services and unleash
           the potential of your own AI creations.
         </p>
-        <div className="flex items-center space-x-2 pt-4">
+        <div id={id} className="flex items-center space-x-2 pt-4">
           <FaCube></FaCube>
           <p>Discover AI services like never before</p>
         </div>

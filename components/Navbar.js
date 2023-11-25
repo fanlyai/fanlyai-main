@@ -31,7 +31,7 @@ export default function Navbar() {
                     </div>
                   </div>
                   <div className="text-white cursor-pointer  md:px-6 p-2 hover:bg-[#ffffff10] rounded-xl   text-center text-xs md:text-base">
-                    <Link href="https://chat.vuzz.app">VUZZ bot</Link>
+                    <Link href="https://chat.vuzz.app">vuzz bot</Link>
                   </div>
                   <div className="cursor-pointer text-white md:px-6 p-2 hover:bg-[#ffffff10]  rounded-xl text-center text-xs md:text-base ">
                       <Link href="https://whitepaper.vuzz.app">

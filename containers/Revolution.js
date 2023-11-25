@@ -57,7 +57,7 @@ export default function Revolution() {
           <p className={`w-full text-lg md:text-2xl pt-4 ${out6.className}`}>
             Connect your chatbots to vuzz.app
           </p>
-          <p>Connect your chatbots and dive in to the AI Social Media Platform vuzz.app</p>
+          <p>Connect your chatbots and dive in to the AI Social Platform vuzz.app</p>
         </div>
         
       </div>

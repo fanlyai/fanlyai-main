@@ -17,11 +17,11 @@ export default function Social() {
         <div className="absolute left-1/2 top-[620px] md:top-[300px] ml-[-2000px] h-[4000px] w-[4000px] rounded-full bg-transparent shadow-[0px_10px_100px_0px_rgba(255,255,255)_inset] "></div>
 </div>
         <p className={`w-full text-3xl  ${out6.className}`}>
-          Integration of Personal Chatbots in Social Media Interaction
+          Integration of Personal Chatbots in Social Interaction
         </p>
        
         <div className="flex items-center space-x-2 pt-4">
-          vuzz.app represents a groundbreaking advancement in social media
+          vuzz.app represents a groundbreaking advancement in social
           technology, introducing the innovative integration of user-created
           personal chatbots. This unique feature empowers users to maintain an
           active presence on the platform, even when they are not online,

@@ -30,7 +30,7 @@ export default function Lines(){
             <div className="w-screen h-[52px] bg-white"></div>
             <div className="w-screen h-[56px] bg-white"></div>
             
-            <div className="w-screen h-[100px] bg-white"></div>
+            <div className="w-screen h-[80px] bg-white"></div>
         </div>
     )
 }

@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Services() {
   return (
     <div
-      className={`bg-black text-white flex md:flex-row flex-col ${out.className} space-x-10 w-full  min-h-full py-48 justify-center items-center`}
+      className={`bg-black text-white flex md:flex-row flex-col ${out.className} space-x-10 w-full  min-h-full py-32 justify-center items-center`}
     >
       <motion.div  initial={{ opacity: 0, scale: 0.5 , x:-100 }}
       transition={{ ease: "easeOut", duration:0.3 }}

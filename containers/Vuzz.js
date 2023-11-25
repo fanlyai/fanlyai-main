@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Vuzz({id}) {
   return (
     <div 
-      className={`bg-transparent text-white mt-12 flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full py-12 justify-center items-center`}
+      className={`bg-transparent text-white flex md:flex-row flex-col ${out.className} md:space-x-10 w-full  min-h-full pt-48 justify-center items-center`}
     >
       <div  className="flex flex-col">
         <p className={`w-full text-3xl  ${out6.className}`}>

@@ -27,7 +27,7 @@ export default function Train() {
             <button  className="border border-white flex text-white bg-black justify-center items-center p-2 w-32">
               get started
             </button></Link>
-            <Link href="https://whitepaper.VuzzAI.com" target="_blank">
+            <Link href="https://whitepaper.vuzz.app" target="_blank">
             <button className="border border-white bg-white text-black flex justify-center items-center p-2 w-32">
               learn more
             </button></Link>

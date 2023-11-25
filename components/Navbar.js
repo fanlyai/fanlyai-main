@@ -26,11 +26,11 @@ export default function Navbar() {
                   <div className="text-white cursor-pointer text-center text-xs md:text-base font-medium  leading-relaxed">
                     
 
-                    <div className="cursor-pointer text-white  bg-transparent md:px-6 hover:bg-[#ffffff10] p-2  text-xs md:text-base">
+                    <div className="cursor-pointer text-white  bg-transparent md:px-6 hover:bg-[#ffffff10] rounded-xl  p-2  text-xs md:text-base">
                       <Link href="https://social.vuzz.app" target="_blank">vuzz social</Link>
                     </div>
                   </div>
-                  <div className="text-white cursor-pointer  md:px-6 p-2 hover:bg-[#ffffff10]  text-center text-xs md:text-base">
+                  <div className="text-white cursor-pointer  md:px-6 p-2 hover:bg-[#ffffff10] rounded-xl   text-center text-xs md:text-base">
                     <Link href="https://chat.vuzz.app">VUZZ bot</Link>
                   </div>
                   <div className="cursor-pointer text-white md:px-6 p-2 hover:bg-[#ffffff10]  rounded-xl text-center text-xs md:text-base ">

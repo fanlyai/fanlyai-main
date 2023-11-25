@@ -16,7 +16,9 @@ export default function Footer(){
               <Image src="/vuzzAIlogo.png" width={60} height={60}></Image>
     </div>
     <div className={outfit.className}>
-     <p >© 2023 VuzzAI. All rights reserved.</p>
+      <div className="flex flex-col items-center text-center md:pl-16">
+     <p >© 2023 VuzzAI.</p>
+     <p > All rights reserved.</p></div>
     </div>
     <div className="text-white items-center flex gap-4 md:py-0 py-8">
     <Link href="https://twitter.com/VuzzPlatformAI" target="_blank"> <FaXTwitter size={28}></FaXTwitter></Link>

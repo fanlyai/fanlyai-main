@@ -12,6 +12,7 @@ import Link from "next/link";
 export default function Unleash(){
     return(
         <div className={`bg-black flex md:flex-row flex-col ${out.className} space-x-10 w-full  min-h-[500px] py-12 justify-center items-center`}>
+             
              <div className="text-center flex flex-col justify-center items-center ">
         
         <p className={`w-full text-3xl md:text-4xl pt-2 lg:px-24 ${out6.className}`}>

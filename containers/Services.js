@@ -15,7 +15,7 @@ export default function Services() {
       
         whileInView={{ opacity: 1, scale: 1, x:0 }} className="w-full flex justify-center">
         <Image
-          src="/hello2.png"
+          src="/hello3.png"
           width={600}
           height={600}
           className="lg:min-w-[500px]"

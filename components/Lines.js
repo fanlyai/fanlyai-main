@@ -6,7 +6,7 @@
 export default function Lines(){
     return(
         <div className="flex flex-col space-y-1">
-            <div className="w-screen h-[1px] bg-white"></div>
+            <div className="w-screen h-[1px]  bg-white"></div>
             <div className="w-screen h-[2px] bg-white"></div>
             <div className="w-screen h-[3px] bg-white"></div>
             <div className="w-screen h-[4px] bg-white"></div>

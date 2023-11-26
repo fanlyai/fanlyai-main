@@ -33,17 +33,17 @@ export default function Navbar() {
                       </div>
                     </Link>
                   </div>
-                  <Link href="https://ai.vuzz.app">
+                  <Link href="https://ai.vuzz.app" target="_blank">
                     <div className="text-white cursor-pointer  md:px-6 p-2 hover:bg-[#ffffff10] rounded-xl   text-center text-xs md:text-base">
                       vuzz ai
                     </div>
                   </Link>
-                  <Link href="https://whitepaper.vuzz.app">
+                  <Link href="https://whitepaper.vuzz.app" target="_blank">
                     <div className="cursor-pointer text-white md:px-6 p-2 hover:bg-[#ffffff10]  rounded-xl text-center text-xs md:text-base ">
                       whitepaper
                     </div>
                   </Link>
-                  <Link href="/">
+                  <Link href="/" target="_blank">
                     <div className="cursor-pointer text-white md:px-6 p-2 hover:bg-[#ffffff10]  rounded-xl text-center text-xs md:text-base ">
                       career
                     </div>
